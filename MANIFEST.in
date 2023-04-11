@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include requirements.txt
+graft dual_channel_fft_analyzer
+recursive-exclude * *.py[co]

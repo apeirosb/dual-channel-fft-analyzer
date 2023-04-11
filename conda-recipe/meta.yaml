@@ -1,0 +1,23 @@
+{% set data = load_setup_py_data() %}
+
+package:
+  name: "dual-channel-fft-analyzer"
+  version: {{ data.get('version') }}
+
+source:
+  path: ../
+
+build:
+  number: 0
+  noarch: python
+
+requirements:
+  host:
+    - python>=3.9
+    - setuptools
+  run:
+    - python>=3.9
+
+test:
+  imports:
+    - dual_channel_fft_analyzer
