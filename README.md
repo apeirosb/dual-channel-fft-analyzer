@@ -6,7 +6,7 @@
 
 Python package that models an old **Dual Channel FFT Analyzer**, taking some of the functionality of the *Brüel & Kjær Dual Channel Signal Analyzer Type 2032/2034* as a reference. The purpose of the application is merely educational to show concepts like *autospectrum*, *cross-spectrum*, *coherence*, *frequency response* estimation, etc.
 
-The tools is a command line interface (CLI) which consumes audio recordings in *.wav* format, representing the inputs for Channels A and B. It outputs:
+The tool includes a command line interface (CLI) which consumes audio recordings in *.wav* format, representing the inputs for Channels A and B. It outputs:
 
 - **Autocorrelation** and **Autospectrum** of channels A and B
 - **Cross-Correlation** and **Cross-Spectrum** between channels A and B
